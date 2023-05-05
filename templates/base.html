@@ -120,6 +120,17 @@
             </div>
         </div>
     </footer>
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 10,
+                center: {
+                    lat: 51.906934,
+                    lng: -8.465744,
+                }
+            });
+        }
+    </script>
         <script
             src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
         </script>

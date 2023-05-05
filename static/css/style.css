@@ -114,3 +114,5 @@ h1 h2 h3 h4 h5 {
     background-color: #ef8354;
     border: none;
 }
+
+#map {min-height: 150px;}
